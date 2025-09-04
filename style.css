@@ -1,0 +1,376 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar{
+    background: white;
+}
+.nav-link{
+    color: black;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-decoration: none;
+}
+.nav-link:hover{
+    color: white;
+    background-color: black;
+}
+
+.bg-hero {
+  background: linear-gradient(135deg, #f8f9fa, #e9ecef); 
+  border-bottom: 3px solid #343a40; 
+}
+
+
+.main{
+    
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+/* Hero Image */
+.hero-img {
+  margin-top: 30px; 
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15); 
+  border-radius: 15px; 
+}
+/* Hero Text */
+.intro-text {
+  font-size: 1.5rem;   /* bigger than default small */
+  font-weight: 500;    /* medium bold */
+  color: #444;
+}
+
+.hero-name {
+  font-size: 3rem;     /* much bigger */
+  font-weight: 800;    /* very bold */
+  color: #222;
+  margin: 10px 0;
+}
+
+.hero-role {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #666;
+  letter-spacing: 1px;
+}
+
+
+.bt1, .bt2 {
+  padding: 10px 25px;
+  border: none;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+.bt1 {
+  background: rgb(190, 49, 49);
+  color: white;
+}
+
+.bt1:hover {
+  background: #333;
+}
+
+.bt2 {
+  background: white;
+  border: 2px solid black;
+  color: black;
+}
+
+.bt2:hover {
+  background: rgb(190, 49, 49);
+  color: white;
+}
+  /* Social Icons */
+.social-icons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  justify-content: flex-start; /* aligns left for large screens */
+}
+
+.social-btn {
+  font-size: 28px;       /* uniform size */
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;          /* default white */
+  transition: 0.3s ease;
+}
+
+/* Different brand colors */
+.social-btn.github { background: #333; }        /* GitHub black */
+.social-btn.linkedin { background: #333; }  /* LinkedIn blue */
+.social-btn.email { background: #333; }     /* Gmail red */
+.social-btn.phone { background: #333; }     /* Phone green */
+
+.social-btn:hover {
+  transform: scale(1.15);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  color: #fff;
+}
+
+#about h2 {
+  font-size: 2rem;
+  color: #222;
+}
+
+#about p {
+  font-size: 1rem;
+  line-height: 1.7;
+}
+
+#about img {
+  max-width: 320px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+/* Skills Section Styling */
+.skill-box {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.skill-box h6 {
+  flex: 1;
+  margin: 0;
+}
+
+.skill-box .progress {
+  flex: 2;
+  height: 18px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.skill-icon {
+  width: 35px;
+  height: 35px;
+  object-fit: contain;
+}
+
+/* Project Section */
+/* Project Section */
+#projects {
+  background: #f9f9f9;
+}
+
+.project-img {
+  height: 220px;
+  object-fit: cover;
+  border-bottom: 2px solid #eee;
+}
+
+.card {
+  border-radius: 12px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.modal-content {
+  border-radius: 12px;
+}
+.btn-success {
+  background: #28a745;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.btn-success:hover {
+  background: #218838;
+  transform: scale(1.05);
+}
+#education h2 {
+  font-weight: 800;
+  color: #333;
+}
+
+#education h3 {
+  font-weight: 700;
+  color: #444;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 8px;
+  margin-bottom: 20px;
+}
+
+#education .card {
+  border-radius: 10px;
+  border: none;
+  background: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#education .card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+.footer h5 {
+  margin-bottom: 15px;
+  color: #f8f9fa;
+}
+
+.footer a {
+  transition: color 0.3s ease;
+}
+
+.footer a:hover {
+  color: #0d6efd; /* Bootstrap primary color */
+}
+
+.social-icons a {
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.2);
+  color: lightcoral;
+}
+
+/* ================= CONTACT PAGE STYLES ================= */
+#contact h2 {
+  font-size: 2.5rem;
+  color: #222;
+}
+
+#contact .form-control {
+  border-radius: 8px;
+  box-shadow: none;
+}
+
+#contact .form-control:focus {
+  border-color: #0d6efd;
+  box-shadow: 0 0 8px rgba(13, 110, 253, 0.3);
+}
+
+#contact button {
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+#contact button:hover {
+  background: #0d6efd;
+  color: #fff;
+}
+
+#contact .social-icons a {
+  display: inline-block;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+#contact .social-icons a:hover {
+  transform: scale(1.2);
+  color: coral;
+}
+
+/* ---------------- CERTIFICATION PAGE ---------------- */
+
+/* ========================
+   Certifications Page
+======================== */
+
+/* Headings */
+#study-cert h2, 
+#sports-cert h2 {
+  font-weight: 800;
+  color: #222;
+  margin-bottom: 40px;
+}
+
+/* Card Styling */
+.card {
+  border-radius: 12px;
+  border: none;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Certificate Image */
+.card img {
+  height: 220px;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+/* Card Body */
+.card-body {
+  text-align: center;
+}
+
+.card-body h5 {
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.card-body p {
+  font-size: 0.95rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Buttons */
+.card-body .btn {
+  padding: 8px 18px;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  transition: 0.3s ease;
+}
+
+.card-body .btn-primary {
+  background-color: #007bff;
+  border: none;
+}
+
+.card-body .btn-primary:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+/* Section Backgrounds */
+#study-cert {
+  background: #ffffff; /* clean white for study */
+}
+
+#sports-cert {
+  background: #f8f9fa; /* light gray for sports */
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .card img {
+    height: 180px;
+  }
+}
+
+
